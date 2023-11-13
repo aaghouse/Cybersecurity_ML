@@ -54,7 +54,7 @@ to identify threats.
 10. Our desired outcome in this case is For the given network packets record to be identified as "1" for threat or identify it as "0" for normal traffic. Using this we can then decide to alert, further classify into various theat histograms or even develop dynamic firewall rules to prevent any attack traffic from entering the network.
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Python Code in Jupiter Notebook]()
+* [Python Code in Jupiter Notebook](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
 * [Data Set]()
 * [Data sheet](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures1of2.png)
 * [model card](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures2of2.png)
