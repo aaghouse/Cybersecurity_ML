@@ -4,8 +4,8 @@ This project is an initiative to sniff packets on the network, processes the dat
 ## Project Status: [In Progress]
 
 ### Project Intro/Objective
-Improve resource utilization, time and effort using targeted marketing. The purpose of this project is to use machine learning techniques to identify customers who are likely 
-to pay attention to the marketing campaign and consider or invest in term deposits with the bank. Idea is to improve the 1% success rates to much larger %'s so 99% wasted time and resource can be leveraged optimally targeting the right customers.
+We use data captured from a network packet sniffers that has malicious traffic and normal traffic in the ratios of 35% and 65%. Train various classification models to identify threts. Once trained we evaluate models and capture idel hyper paramaters among various models. We then pick the 
+top model to classify network traffic with high accuracy to identify threts. Goal is to be able to do dynamic classification that can be followed up to raise alerts or even potentially come up with histogram of the type of threts and develop dynamic firewall rule sets to block further attacks.
 
 ### Methods Used
 * Statistics
@@ -19,13 +19,13 @@ to pay attention to the marketing campaign and consider or invest in term deposi
 * ML models: 
     - Logistic Regression, 
     - KNN, Decision Trees, 
-    - SupportVectorMachine(SupportVectorClassifier) 
     - & RandomForestClassifier 
 * Jupiter notebook
-* sklearn, pandas, numpi, time
+* sklearn, pandas, numpi, time, ConfusionMatrixDisplay, RocCurveDisplay
 
 ## Project Description
-Bank has collected 21 features or columns of around 41188 rows or records. These are statistics and data about the clients. Marketing term deposit indiscriminately to all these clients historically has given a success rate of 1%. Not just a low success rate but has given bad customer experience. This initiative is to statistically study the clients, category of clients, observe their pattern, past success on term deposits, financial potential and come up with target clients to market the product (term deposits). The idea is to spend efficient resources, time, effort and cater to better customer experience.
+Data collected has 461,043 records. We use this data to train the model to learn and identify threats. Once trained we perform binary classification
+to identify threats. 
 
 ## Needs of this project
 - ML modeling skills, python
@@ -44,32 +44,28 @@ Bank has collected 21 features or columns of around 41188 rows or records. These
     * Reduce features to the absolute minimum and essential features dataset.
     * Prepare features using column transformation of the dataset based on feature identification.
     * treating data - Feature Columns transformation (onehot encoding, label encoding, passthroguh or standardscalar)
-3. Once Data transformation has been completed analyze the number of features that we end up with. In this case its large. (55 to be precise)
-4. Since the dataset has too many features and also as a best practice analyze the dataset with corelation matrix. Preferably setting thresholds and drop features that are highly corelated in this case (>.7) is being used. Dropping 7 features ending up with 48 features to analyze. 
+3. Once Data transformation has been completed analyze the number of features that we end up with. In this case its large. (49 to be precise)
+4. Since the dataset has too many features and also as a best practice analyze the dataset with corelation matrix. Preferably setting thresholds and drop features that are highly corelated in this case (>.7) is being used. Dropping 3 features ending up with 46 features to analyze. 
 5. While this may be good to fit classification models it is still too large for model hyperparameter tweaks and finetuning. 
-6. Adopt techniques to further strip down just the bare essentil features to tackle or identify this classification outcome. RandomForest is being used in this case to reduce the features to 5 to bring it down to managable features for classification.
+6. Adopt techniques to further strip down just the bare essentil features to tackle or identify this classification outcome. RandomForest is being used in this case to reduce the features to 24 to bring it down to managable features for classification. This is still considered large feture set.
 7. Test out all major classification models benchmarking fit times, accuracy and interpretability.
 8. Decide on the best classifier model, tweak it for better accuracy.
 9. Eventually implement / train the model with best hyper parameters to get accurate desired outcome.
-10. Our desired outcome in this case is For the given customer the model should give an output of "1" for potential customer to target or "0" not a customer to target for term deposit clientel. Using this bank can decide to either place a call or refrain from marketing term deposit product to the customer.
+10. Our desired outcome in this case is For the given network packets record to be identified as "1" for threat or identify it as "0" for normal traffic. Using this we can then decide to alert, further classify into various theat histograms or even develop dynamic firewall rules to prevent any attack traffic from entering the network.
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Python Code in Jupiter Notebook](https://github.com/aaghouse/bank_marketing_campaign/blob/master/bank_mktng_classification_y-or-n_term_deposit.ipynb)
-* [Data Set](https://github.com/aaghouse/bank_marketing_campaign/tree/master/bank%2Bmarketing/bank-additional/bank-additional)
-* [Data feature description1](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures1of2.png)
-* [Data feature description2](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures2of2.png)
-* [Results Summary](https://github.com/aaghouse/bank_marketing_campaign/blob/master/ResultsSummary.md)
-* [Reference Paper](https://github.com/aaghouse/bank_marketing_campaign/blob/master/CRISP-DM-BANK.pdf)
+* [Python Code in Jupiter Notebook]()
+* [Data Set]()
+* [Data sheet](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures1of2.png)
+* [model card](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures2of2.png)
+* [Results Summary]()
+* [Reference Paper on Data Collection]()
 
 ## Results
-Business context, when the bank contacted its target clients or so called target clients majority of the clients declined to enroll in term based deposits. Analyzing the given data set 88.73% declined to enroll.  
+TBD
 
-In DataScience language, baseline accuracy of the majority outcome "0" of the given data set is 88.73%
-Post DataScience techniques baed on the quantitative statistical analysis and modeling we can target clients with > 90%
-accuracy that they would enroll in term based deposit product.
+![Classification Models with accuracy, fit times & interpretability](Output_All_models-Final-Results-Plots.png??)
 
-![Classification Models with accuracy, fit times & interpretability](Output_All_models-Final-Results-Plots.png)
-
-Results Summary (Detailed results analysis [Final Summary](https://github.com/aaghouse/bank_marketing_campaign/blob/master/ResultsSummary.md))
+Results Summary (Detailed results analysis [Final Summary](https://github.com/??))
 ## Contact 
 * Author: Abdul Ghouse, email: aghouse@gmail.com
