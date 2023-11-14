@@ -56,10 +56,11 @@ to identify threats.
 ## Featured Notebooks/Analysis/Deliverables
 * [Python Code in Jupiter Notebook](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
 * [Data Set](https://github.com/aaghouse/Cybersecurity_ML/tree/main/dataset)
+* [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
 * [Data sheet](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/cyber_sec_network_datasheet.pdf)
 * [model card]()
 * [Results Summary](https://github.com/aaghouse/Cybersecurity_ML/blob/main/images/results-stark-color.png)
-* [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
+
 
 ## Results
 * [Results DF](https://github.com/aaghouse/Cybersecurity_ML/blob/main/images/results-table.png)
