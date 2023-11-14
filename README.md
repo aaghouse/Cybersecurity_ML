@@ -55,9 +55,9 @@ to identify threats.
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Python Code in Jupiter Notebook](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
-* [Data Set]()
+* [Data Set](https://github.com/aaghouse/Cybersecurity_ML/tree/main/dataset)
 * [Data sheet](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures1of2.png)
-* [model card](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures2of2.png)
+* [model card]()
 * [Results Summary]()
 * [Reference Paper on Data Collection]()
 
