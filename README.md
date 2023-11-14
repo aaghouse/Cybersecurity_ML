@@ -37,8 +37,8 @@ to identify threats.
 1.	Clone this repo (UC Irvine ML Repo Detailed Dataset to Download).
 2.	Understand the business challenges, use case, problem to solve, features used in the dataset, co-relation understanding with target and among features 
 3.	EDA(Exploratory Data Analysis)
-    - Analyze for null values, undefined values, quantity of each, normalized baseline target outcome
-    - Drop features that are of minimal to no use to analyze the target column. Balance tradeoffs between data imputng vs dropping based on quantity missing. In this case we were able to reduce the features from 45 to just 15.
+&ensp;- Analyze for null values, undefined values, quantity of each, normalized baseline target outcome
+&ensp;- Drop features that are of minimal to no use to analyze the target column. Balance tradeoffs between data imputng vs dropping based on quantity missing. In this case we were able to reduce the features from 45 to just 15.
     - Identify what features are categorical, ordinal and scalar.
     - Reduce features to the absolute minimum and essential features dataset.
     - Prepare features using column transformation of the dataset based on feature identification.
