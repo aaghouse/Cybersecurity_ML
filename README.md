@@ -4,8 +4,7 @@ This project is an initiative to sniff packets on the network, processes the dat
 ## Project Status: [In Progress]
 
 ### Project Intro/Objective
-We use data captured from a network packet sniffers that has malicious traffic and normal traffic in the ratios of 35% and 65%. Train various classification models to identify threts. Once trained we evaluate models and capture idel hyper paramaters among various models. We then pick the 
-top model to classify network traffic with high accuracy to identify threts. Goal is to be able to do dynamic classification that can be followed up to raise alerts or even potentially come up with histogram of the type of threts and develop dynamic firewall rule sets to block further attacks.
+We use data captured from a network packet sniffer that has malicious traffic and normal traffic in the ratios of 35% and 65%. Train various classification models to identify threats. Once trained we evaluate models and capture ideal hyper parameters among various models. We then picked the top model to classify network traffic with high accuracy to identify threats. Our goal is to be able to do dynamic classification that can be followed up to raise alerts or even potentially come up with histogram of the type of threats and develop dynamic firewall ruleset to block further attacks.
 
 ### Methods Used
 * Statistics
