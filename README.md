@@ -59,7 +59,7 @@ to identify threats.
 * [Data sheet](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures1of2.png)
 * [model card]()
 * [Results Summary]()
-* [Reference Paper on Data Collection]()
+* [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
 
 ## Results
 TBD
