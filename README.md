@@ -37,12 +37,12 @@ to identify threats.
 1.	Clone this repo (UC Irvine ML Repo Detailed Dataset to Download).
 2.	Understand the business challenges, use case, problem to solve, features used in the dataset, co-relation understanding with target and among features 
 3.	EDA(Exploratory Data Analysis)
-- Analyze for null values, undefined values, quantity of each, normalized baseline target outcome
-- Drop features that are of minimal to no use to analyze the target column. Balance tradeoffs between data imputng vs dropping based on quantity missing. In this case we were able to reduce the features from 45 to just 15.
-- Identify what features are categorical, ordinal and scalar.
-- Reduce features to the absolute minimum and essential features dataset.
-- Prepare features using column transformation of the dataset based on feature identification.
-- Treating data - Feature Columns transformation (onehot encoding, label encoding, passthrough or standardscalar)
+    - Analyze for null values, undefined values, quantity of each, normalized baseline target outcome
+    - Drop features that are of minimal to no use to analyze the target column. Balance tradeoffs between data imputng vs dropping based on quantity missing. In this case we were able to reduce the features from 45 to just 15.
+    - Identify what features are categorical, ordinal and scalar.
+    - Reduce features to the absolute minimum and essential features dataset.
+    - Prepare features using column transformation of the dataset based on feature identification.
+    - Treating data - Feature Columns transformation (onehot encoding, label encoding, passthrough or standardscalar)
 4.	Once Data transformation has been completed analyze the number of features that we end up with. In this case it’s large. (49 to be precise, encoding seems to have rehydrated the feature sets)
 5.	Since the dataset has too many features and also as a best practice analyze the dataset with corelation matrix. Preferably setting thresholds and drop features that are highly corelated in this case (>.7) is being used. Dropping 3 features ending up with 46 features to analyze.
 6.	While this may be good to fit classification models it is still too large for model hyperparameter tweaks and finetuning.
