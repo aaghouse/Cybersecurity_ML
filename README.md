@@ -7,7 +7,7 @@ This project is an initiative to sniff packets on the network, processes the dat
 The project has two parts, part I is to classify network traffic as malicious or normal and part II is to identify the type of threat. We use data captured from a network packet sniffer that has malicious traffic and normal traffic in the ratios of 35% and 65%. 
 * (Part I) Train various classification models to identify threats. Once trained we evaluate models and capture ideal hyper parameters among various models. We then picked the top model to classify network traffic with high accuracy to identify threats. Our goal is to be able to do dynamic classification that can be followed up to raise alerts.
 * (Part II) Once we have identified traffic to be normal or malicious we then identify malicious traffic type using neural networks. We evaluate various neural networks, identify the best one for our use case and train them further to improve accuracy.
-      - Prospects, output from this neural network could be leveraged to dynamically produce firewall rules and improve organizations security posture instantaneously.
+  - Prospects as next step, output from this neural network could be leveraged to dynamically produce firewall rules and improve organizations security posture instantaneously.
 
 
 ### Methods Used
