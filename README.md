@@ -19,7 +19,7 @@ The project has two parts, part I is to classify network traffic as malicious or
 
 ### Technologies
 * Python
-* ML models: 
+* ML models 
     - Logistic Regression, 
     - KNN, Decision Trees, 
     - & RandomForestClassifier 
@@ -31,14 +31,14 @@ The project has two parts, part I is to classify network traffic as malicious or
 * sklearn, pandas, numpi, time, ConfusionMatrixDisplay, RocCurveDisplay
 
 ## Project Description
-Data collected has 461,043 records. We use this data to train the model to learn and identify threats. Once trained we perform binary classification
-to identify threats. 
+Data collected has 461,043 records. We use this data to train the model to learn and identify threats. Once trained we perform binary classification to identify threats. Once threat has been identified we then identify the type of threat using multi class classification.
 
 ## Needs of this project
 - ML modeling skills, python
 - data exploration/descriptive statistics
 - data processing/cleaning
-- statistical classification modeling
+- statistical classification modeling (binary and multi class), fine tuning models
+- neural networks
 - writeup/reporting
 
 ## Getting Started and phased execution, processes
