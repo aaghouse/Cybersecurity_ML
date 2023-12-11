@@ -1,4 +1,4 @@
-## Cybersecurity Machine Learning, threat detection sniffing packets on the network
+## Cybersecurity Machine Learning, threat detection sniffing packets on the network & classifying type of threat
 This project is an initiative to sniff packets on the network, processes the data using ML and classify the traffic as normal or malicious. On successful classification we then identify threats and bin it according to the type of threat using neural networks..
 
 ## Project Status: [Completed]
