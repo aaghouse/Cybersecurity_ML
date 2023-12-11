@@ -23,6 +23,10 @@ The project has two parts, part I is to classify network traffic as malicious or
     - Logistic Regression, 
     - KNN, Decision Trees, 
     - & RandomForestClassifier 
+* Neural Network
+    - ANN (Artificial Neural Networks), DNN (Deep Neural Networks)
+    - CNN (Convolutional Neural Networks)
+    - RNN (Recurrent Neural Networks)
 * Jupiter notebook
 * sklearn, pandas, numpi, time, ConfusionMatrixDisplay, RocCurveDisplay
 
