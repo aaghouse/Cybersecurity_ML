@@ -62,10 +62,9 @@ Data collected has 461,043 records. We use this data to train the model to learn
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Python Code in Jupiter Notebook](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
-  ###Python Code in Jupiter Notebook
-  ####Part I
-  - [binary classification models evaluation](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
+###Python Code in Jupiter Notebook
+###Part I
+  - [models evaluation, binary, cyber_ml_capstone.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
 * [Data Set](https://github.com/aaghouse/Cybersecurity_ML/tree/main/dataset)
 * [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
 * [Data sheet](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/cyber_sec_network_datasheet.pdf)
