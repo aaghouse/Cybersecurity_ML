@@ -69,7 +69,7 @@ Data collected has 461,043 records. We use this data to train the model to learn
   - [File 3 of 4, Cyberthreat geo location, cool_plots.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cool_plots.ipynb)
 - **Part II**
   - [File 4 of 4, multi class classification using neural networks Identifying threat type, neural_net_multi_class_classification.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/neural_net_multi_class_classification.ipynb)
-<br>#### Data
+#### Data
 - **Data Source**
   - [Data Set](https://github.com/aaghouse/Cybersecurity_ML/tree/main/dataset)
 - **Data Description**
