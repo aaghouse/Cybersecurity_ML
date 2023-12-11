@@ -62,23 +62,23 @@ Data collected has 461,043 records. We use this data to train the model to learn
 
 
 ## Featured Notebooks/Data/Model cards/Analysis/Deliverables
-### Python Code in Jupiter Notebook
+#### Python Code in Jupiter Notebook
 - **Part I**
   - [File 1 of 4, binary classification using ML models evaluation, cyber_ml_capstone.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
   - [File 2 of 4, Optimized model, optimized_model.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/optimized_model.ipynb)
   - [File 3 of 4, Cyberthreat geo location, cool_plots.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cool_plots.ipynb)
 - **Part II**
   - [File 4 of 4, multi class classification using neural networks Identifying threat type, neural_net_multi_class_classification.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/neural_net_multi_class_classification.ipynb)
-### Data
+#### Data
 - **Data Source**
   - [Data Set](https://github.com/aaghouse/Cybersecurity_ML/tree/main/dataset)
 - **Data Description**
   - [Data sheet](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/cyber_sec_network_datasheet.pdf)
-### Model Information
+#### Model Information
 - **Model Cards**
   - [model card1]()
   - [model card2]()
-### Reference Paper
+#### Reference Paper
 * [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
 
 ## Results
