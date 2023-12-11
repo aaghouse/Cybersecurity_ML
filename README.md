@@ -61,7 +61,7 @@ Data collected has 461,043 records. We use this data to train the model to learn
 11.	Our desired outcome in this case is for the given network packets record to be identified as "1" for threat or identify it as "0" for normal traffic. Using this we can then decide to alert, further classify into various threat histograms or even develop dynamic firewall rules to prevent any attack traffic from entering the network.
 
 
-## Featured Notebooks/Analysis/Deliverables
+## Featured Notebooks/Data/Analysis/Deliverables
 ### Python Code in Jupiter Notebook
 - **Part I**
   - [File 1 of 4, binary classification using ML models evaluation, cyber_ml_capstone.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
@@ -69,8 +69,10 @@ Data collected has 461,043 records. We use this data to train the model to learn
   - [File 3 of 4, Cyberthreat geo location, cool_plots.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cool_plots.ipynb)
 - **Part II**
   - [File 4 of 4, multi class classification using neural networks Identifying threat type, neural_net_multi_class_classification.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/neural_net_multi_class_classification.ipynb)
-### Data Source
+### Data
+- **Data Source**
   - [Data Set](https://github.com/aaghouse/Cybersecurity_ML/tree/main/dataset)
+- **Data Description**
   - [Data sheet](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/cyber_sec_network_datasheet.pdf)
 * [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
 
