@@ -62,13 +62,6 @@ Data collected has 461,043 records. We use this data to train the model to learn
 
 
 ## Featured Notebooks/Data/Model cards/Analysis/Deliverables
-<style>
-/* Reduce line spacing */
-.line-compressed {
-    line-height: 0.8; /* Adjust the value to compress line spacing */
-}
-</style>
-<span class="line-compressed">
 #### Python Code in Jupiter Notebook
 - **Part I**
   - [File 1 of 4, binary classification using ML models evaluation, cyber_ml_capstone.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
@@ -87,7 +80,7 @@ Data collected has 461,043 records. We use this data to train the model to learn
   - [model card2]()
 #### Reference Paper
 * [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
-</span>
+
 ## Results
 * [Results DF](https://github.com/aaghouse/Cybersecurity_ML/blob/main/images/results-table.png)
 
