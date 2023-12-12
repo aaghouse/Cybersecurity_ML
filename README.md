@@ -87,6 +87,6 @@ Data collected has 461,043 records. We use this data to train the model to learn
 Cyber threat detection and deterrence are a regular part of corporate operations. Speed at with we can detect malicious traffic, categorize it, neutralize, and prevent it is critical. As a part of this project, we fed in data from network traffic packet captures, leveraged machine learning models, evaluated various models, picked the most optimal model, fine tuned it and were able to classify network traffic as malicious or not with high degree of accuracy (> 98%) (Part I). Once we identified the threat, we further utilized neural network, evaluated various networks, identified most optimal network and were able to classify the threats (9 types of threats) with (~78%) accuracy and minimum loss(<0.4). 
 The model is now ready to be tried and utilized for production. (part I) As a part of the next step this output can be leveraged to raise alerts to deter cyberthreat and the (part II) output of neural network can be utilized to develop dynamic firewall rules to deter further threats and fortify cyber defense.
 
-Results Summary (Detailed results analysis [Final Summary](https://github.com/??))
+Results Summary (Detailed results analysis [Final Summary](https://github.com/aaghouse/Cybersecurity_ML/blob/main/results-summary.pdf))
 ## Contact 
 * Author: Abdul Ghouse, email: aghouse@gmail.com
