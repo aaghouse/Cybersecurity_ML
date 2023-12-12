@@ -77,7 +77,7 @@ Data collected has 461,043 records. We use this data to train the model to learn
 #### Model Information
 - **Model Cards**
   - [model card1]()
-  - [model card2]()
+  - [model card2](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/MulticlassClassificationModelCard-2.pdf.pdf)
 #### Reference Paper
 * [Reference Paper on Data Collection](https://github.com/aaghouse/Cybersecurity_ML/blob/main/dataset/Testbed%20%26%20attacks%20of%20TON_IoT%20datasets.pdf)
 
