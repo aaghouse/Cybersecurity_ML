@@ -62,7 +62,7 @@ Data collected has 461,043 records. We use this data to train the model to learn
 
 
 ## Featured Notebooks/Data/Model cards/Analysis/Deliverables
-#### Python Code in Jupiter Notebook
+#### Python Code in Google colab
 - **Part I**
   - [File 1 of 4, binary classification using ML models evaluation, cyber_ml_capstone.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/cyber_ml_capstone.ipynb)
   - [File 2 of 4, Optimized model, optimized_model.ipynb](https://github.com/aaghouse/Cybersecurity_ML/blob/main/optimized_model.ipynb)
